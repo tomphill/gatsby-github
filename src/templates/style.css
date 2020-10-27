@@ -1,0 +1,45 @@
+.card {
+  border: black 1px solid;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.card > p {
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.stargazers-count {
+  padding: 2px 4px;
+  background: limegreen;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.stargazers {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.stargazers img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.no-stargazers {
+  color: #ccc;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+}
+
+.pages > div {
+  padding: 4px 10px;
+  margin-right: 4px;
+}
